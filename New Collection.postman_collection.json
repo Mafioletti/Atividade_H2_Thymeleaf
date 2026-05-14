@@ -1,0 +1,124 @@
+{
+  "info": {
+    "_postman_id": "086f4413-5121-4335-a4e1-1bb97b4c8378",
+    "name": "New Collection",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "54507725",
+    "_collection_link": "https://go.postman.co/collection/54507725-086f4413-5121-4335-a4e1-1bb97b4c8378?source=collection_link"
+  },
+  "item": [
+    {
+      "name": "inserir",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nickname\": \"Mafia\",\n    \"email\": \"mafia@gmail.com\",\n    \"jogoFavorito\": \"The Last of Us\",\n    \"nivelJogador\": 50\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8083/usuarios",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "usuarios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "listar",
+      "protocolProfileBehavior": {
+        "disableBodyPruning": true
+      },
+      "request": {
+        "method": "GET",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nickname\": \"Mafia\",\n    \"email\": \"mafia@gmail.com\",\n    \"jogoFavorito\": \"The Last of Us\",\n    \"nivelJogador\": 50\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8083/usuarios",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "usuarios"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "atualizar",
+      "request": {
+        "method": "PUT",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nickname\": \"Mafia\",\n    \"email\": \"mafia@gmail.com\",\n    \"jogoFavorito\": \"The Last of Us\",\n    \"nivelJogador\": 50\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8083/usuarios/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "usuarios",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "deletar",
+      "request": {
+        "method": "DELETE",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"nickname\": \"Mafia\",\n    \"email\": \"mafia@gmail.com\",\n    \"jogoFavorito\": \"The Last of Us\",\n    \"nivelJogador\": 50\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "localhost:8083/usuarios/1",
+          "host": [
+            "localhost"
+          ],
+          "port": "8083",
+          "path": [
+            "usuarios",
+            "1"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
